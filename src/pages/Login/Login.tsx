@@ -1,13 +1,12 @@
-import { TextField } from '@mui/material'
 import { Container } from './login.style'
-import { AiFillEye } from 'react-icons/ai'
+
 import { Link } from 'react-router-dom'
 import Background from './../../images/background.svg'
 export function LoginScreen() {
   return (
     <Container>
       <div className="back">
-        <img src={Background} />
+        <img src={Background} alt={'background'} />
       </div>
 
       <div className="form">

@@ -1,8 +1,8 @@
-import { Container } from './page-in'
+import { Container } from './styles'
 import { CustomTable } from '../../components/CustomTable/CustomTable'
+import { GrNotes } from 'react-icons/gr'
 
-import Relatorios from './../../images/Relatórios.svg'
-export function Pagein() {
+export function MySchedules() {
   return (
     <Container>
       <header></header>
@@ -10,11 +10,17 @@ export function Pagein() {
         <div className="later">
           <button className="relater">
             {' '}
-            <img src={Relatorios} /> Minhas consultas
+            <GrNotes
+              size={25}
+              style={{
+                marginRight: 10,
+              }}
+            />{' '}
+            Minhas consultas
           </button>
           <button className="relater">
             {' '}
-            <img src={Relatorios} /> Agendamento
+            <GrNotes size={25} /> Agendamento
           </button>
         </div>
         <div className="content">

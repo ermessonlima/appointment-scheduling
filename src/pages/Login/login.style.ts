@@ -6,7 +6,6 @@ export const Container = styled.div`
   .form {
     margin-top: 10rem;
     margin-left: 1.76rem;
-    flex-direction: .collum;
   }
 
   .form h1 {
